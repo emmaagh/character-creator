@@ -33,6 +33,8 @@
   position: fixed;
   top: 140px;
   left: 65%;
+  bottom: 5%;
+  min-height: 500px;
 }
 
 @media (max-width: 1024px) {
