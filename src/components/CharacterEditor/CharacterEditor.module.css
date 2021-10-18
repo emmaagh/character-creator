@@ -25,12 +25,33 @@
   margin: 0;
 }
 
+.controlColumn {
+  width: 50%;
+}
+
 .characterWrapper {
   position: fixed;
   top: 140px;
   left: 65%;
 }
 
-.controlColumn {
-  width: 50%;
+@media (max-width: 1024px) {
+  .header {
+    width: 100%;
+  }
+
+  .controlColumn {
+    position: absolute;
+    bottom: 15%;
+    left: 0;
+    overflow-x: scroll;
+    white-space: nowrap;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .characterWrapper {
+    position: static;
+  }
+
 }
