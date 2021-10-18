@@ -1,3 +1,7 @@
+.buttonRow {
+    padding-top: 18px;
+}
+
 @media (max-width: 1024px) {
   .buttonRow {
     overflow: auto;

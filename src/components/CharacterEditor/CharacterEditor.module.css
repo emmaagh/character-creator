@@ -36,13 +36,17 @@
 }
 
 @media (max-width: 1024px) {
+  .characterEditor {
+    padding-top: 64px;
+  }
+
   .header {
     width: 100%;
   }
 
   .controlColumn {
     position: absolute;
-    bottom: 15%;
+    bottom: 200px;
     left: 0;
     overflow-x: scroll;
     white-space: nowrap;
